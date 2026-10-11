@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-10-11T19:00:00",
+  "shop": "SAMPLE Harbor Brew Cafe",
+  "trust_punches": {
+    "emp_ava": "ok",
+    "emp_ben": "ok",
+    "emp_cara": "ok",
+    "emp_dee": "ok",
+    "exception_count": 0
+  },
+  "punchguard": {
+    "emp_ava": "early_in",
+    "emp_ben": "late_out",
+    "emp_cara": "missed_clockout",
+    "emp_dee": "ot_risk",
+    "exception_count": 4
+  },
+  "notes": [
+    "as_of is 19:00 local so Cara (shift end 18:00 + 5 grace) is past window for missed_clockout.",
+    "Parent brief said 14:00; that would be before Cara's end, so demo uses 19:00 to match the missed_clockout claim."
+  ]
+}
